@@ -1,0 +1,25 @@
+{
+    "name": "my-story-protocol-example-beta",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "commercial": "npx ts-node ./scripts/commercialExample.ts",
+        "non-commercial": "npx ts-node ./scripts/nonCommercialExample.ts",
+        "metadata": "npx ts-node ./scripts/metadataExample.ts",
+        "create-spg-collection": "npx ts-node ./scripts/utils/createSpgNftCollection.ts"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@pinata/sdk": "^2.1.0",
+        "@story-protocol/core-sdk": "^1.0.0-rc.23",
+        "ts-node": "^10.9.2",
+        "viem": "^2.8.12"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.17",
+        "prettier": "3.2.5"
+    }
+}
